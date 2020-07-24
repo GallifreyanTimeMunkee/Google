@@ -1,28 +1,94 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
+html{
+    height: 100%;
+    background-color: #F7F7F7;
+}
+
+/*Removes decorations from all anchor tags*/
+a {
+    text-decoration: none;
+    /* text-decoration-color: fff; */
+    color: black;
+}
+
+/*Sets container to flex*/
 .container{
     padding: 5px;
-    text-decoration: none;
-    color: black;
     display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
-.about {
-    text-decoration: none!important;
+/*Styles individual container items*/
+.container-items {
     padding: 5px;
-}
-
-.store{
-    padding: 5px;
+    margin-top: 15px
 }
 
 .gmail{
-    padding: 5px;
+    margin-left: auto;
 }
 
-.images{
+.grid{
+    padding: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.profile {
+    padding: 0;
+}
+
+
+.center{
     padding: 5px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+.center-items{
+    margin: auto;
+}
+
+.google {
+    width: 300px;
+    height: 5%;
+}
+
+.searchBar{
+    width: 550px;
+    height: 4%;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+}
+
+.footer {
+    margin-top: 22.5%;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    background-color: #F2F2F2;
+}
+
+.footer-items{
+    text-decoration: none!important;
+    padding: 5px;
+    
+}
+
+.priv {
+    margin-left: auto;
 }
